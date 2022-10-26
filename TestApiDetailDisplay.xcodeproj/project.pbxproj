@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3317ED3529093BD600C597EB /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317ED3429093BD600C597EB /* BaseCoordinator.swift */; };
 		3389FF2B29092F6F00E9D870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389FF2A29092F6F00E9D870 /* AppDelegate.swift */; };
 		3389FF2D29092F6F00E9D870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389FF2C29092F6F00E9D870 /* SceneDelegate.swift */; };
 		3389FF2F29092F6F00E9D870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389FF2E29092F6F00E9D870 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3317ED3429093BD600C597EB /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		3389FF2729092F6F00E9D870 /* TestApiDetailDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApiDetailDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3389FF2A29092F6F00E9D870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3389FF2C29092F6F00E9D870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3317ED312909392D00C597EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3389FF3029092F6F00E9D870 /* Main.storyboard */,
+				3389FF2A29092F6F00E9D870 /* AppDelegate.swift */,
+				3389FF3529092F7000E9D870 /* LaunchScreen.storyboard */,
+				3389FF2C29092F6F00E9D870 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3317ED3229093BB100C597EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3317ED3329093BC400C597EB /* Coordinator */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3317ED3329093BC400C597EB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3317ED3429093BD600C597EB /* BaseCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		3389FF1E29092F6F00E9D870 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +128,12 @@
 		3389FF2929092F6F00E9D870 /* TestApiDetailDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				3389FF2A29092F6F00E9D870 /* AppDelegate.swift */,
-				3389FF2C29092F6F00E9D870 /* SceneDelegate.swift */,
-				3389FF2E29092F6F00E9D870 /* ViewController.swift */,
-				3389FF3029092F6F00E9D870 /* Main.storyboard */,
+				3317ED3229093BB100C597EB /* Base */,
+				3317ED312909392D00C597EB /* Application */,
+				3389FF5C29092FBC00E9D870 /* ViewModel */,
+				3389FF5B29092FB200E9D870 /* View */,
+				3389FF5A29092FA900E9D870 /* Model */,
 				3389FF3329092F7000E9D870 /* Assets.xcassets */,
-				3389FF3529092F7000E9D870 /* LaunchScreen.storyboard */,
 				3389FF3829092F7000E9D870 /* Info.plist */,
 			);
 			path = TestApiDetailDisplay;
@@ -125,6 +154,28 @@
 				3389FF4D29092F7100E9D870 /* TestApiDetailDisplayUITestsLaunchTests.swift */,
 			);
 			path = TestApiDetailDisplayUITests;
+			sourceTree = "<group>";
+		};
+		3389FF5A29092FA900E9D870 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3389FF5B29092FB200E9D870 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3389FF5C29092FBC00E9D870 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3389FF2E29092F6F00E9D870 /* ViewController.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +312,7 @@
 				3389FF2F29092F6F00E9D870 /* ViewController.swift in Sources */,
 				3389FF2B29092F6F00E9D870 /* AppDelegate.swift in Sources */,
 				3389FF2D29092F6F00E9D870 /* SceneDelegate.swift in Sources */,
+				3317ED3529093BD600C597EB /* BaseCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
