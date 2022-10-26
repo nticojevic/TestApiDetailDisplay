@@ -1,0 +1,6 @@
+framework module Pods_TestApiDetailDisplay_TestApiDetailDisplayUITests {
+  umbrella header "Pods-TestApiDetailDisplay-TestApiDetailDisplayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

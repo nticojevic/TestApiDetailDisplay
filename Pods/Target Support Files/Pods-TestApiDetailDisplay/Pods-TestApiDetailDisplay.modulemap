@@ -1,0 +1,6 @@
+framework module Pods_TestApiDetailDisplay {
+  umbrella header "Pods-TestApiDetailDisplay-umbrella.h"
+
+  export *
+  module * { export * }
+}
