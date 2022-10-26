@@ -7,12 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaseTableViewController: UIViewController {
+    var viewModel: HeroesViewModel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
 }
