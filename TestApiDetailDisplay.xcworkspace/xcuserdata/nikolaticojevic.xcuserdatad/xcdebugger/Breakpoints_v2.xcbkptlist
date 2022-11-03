@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E18F40F2-4E9C-4C64-911A-A2319B99D2C4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CBCE9C1-D5A0-4747-8FD8-8D816B73D86F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestApiDetailDisplay/UI + Extension/UI + Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "setImage(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2CBCE9C1-D5A0-4747-8FD8-8D816B73D86F - f5ae498e9febf45c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIImageView.setImage(with: Swift.String) -&gt; ()"
+                  moduleName = "TestApiDetailDisplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolaticojevic/Desktop/TestApiDetailDisplay/TestApiDetailDisplay/UI%20+%20Extension/UI%20+%20Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  uuid = "2CBCE9C1-D5A0-4747-8FD8-8D816B73D86F - f5ae498e9febf45c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIImageView.setImage(with: Swift.String) -&gt; ()"
+                  moduleName = "TestApiDetailDisplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolaticojevic/Desktop/TestApiDetailDisplay/TestApiDetailDisplay/UI%20+%20Extension/UI%20+%20Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "377">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
