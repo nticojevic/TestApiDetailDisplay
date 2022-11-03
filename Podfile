@@ -7,6 +7,7 @@ target 'TestApiDetailDisplay' do
 
   # Pods for TestApiDetailDisplay
 	pod 'Alamofire'
+	pod 'Kingfisher'
 
   target 'TestApiDetailDisplayTests' do
     inherit! :search_paths
